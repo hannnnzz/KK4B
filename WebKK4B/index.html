@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connie's Resto</title>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="img/ikon.png">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <img src="img/atas.jpg"style="width:100%">
+      <div class="centered">
+        <h2>Connie's Resto!!</h2>
+        <p>Find Delicious Food EveryDay >^< </p>
+      </div>
+    </div>
+</div>
+
+<div id="navbar">
+  <div class="topnav" id="myTopnav">
+    <a class="active" href="#">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<section class="banner">
+  <h2>Welcome To Connie's Resto</h2>
+</section>
+
+<div class="content">
+  <h3> <img src="img/ikon.png" height="62" width="72">  Connie's Resto</h3>
+  <div class="tulisan">
+    <h3><center>Our Popular Dishes</center></h3>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/stik.jpg" alt="Diner" style="width:100%">
+      <div class="container">
+        <h2>Beef Steaks</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Dinner</p>
+        <p>Perfectly Taste Sirloin Beef</p>
+        <p>IDR. 95.000</p>
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/bbq.jpg" alt="Dinner" width="400" height="400">
+      <div class="container">
+        <h2>BBQ Beef Ribs</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Dinner</p>
+        <p>Perfect Jalapeno Taste</p>
+        <p>IDR 120.000</p> 
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/dessert.jpg" alt="Dessert" height="400" width="400">
+      <div class="container">
+        <h2>Ice Cake Vanilla</h2>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <p class="title">Dessert</p>
+        <p>Cake With Strawberry</p>
+        <p>IDR 35.000</p>
+        <p><button class="button">Buy Now</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="Right">Copyright© 2020 - Adhystira. All Right Reserved</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="icon" type="image/png" href="img/ikon.png">
+    <link rel="stylesheet" type="text/css" href="CSS/style3.css">
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet'>
+</head>
+<body>
+	<div id="navbar">
+	  <a href="index.html">Home</a>
+	  <a href="menu.html">Menu</a>
+	  <a class="active" href="#">About</a>
+	  <a href="contact.html">Contact</a>
+	</div>
+  
+  <div class="about-section">
+  <h1>About Us</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<h2 style="text-align:center">Our Development</h2>
+  <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/profil.png" alt="Rehan :v" style="width:100%">
+      <div class="container">
+        <h2>Adhystira Raihan</h2>
+        <p class="title">Web Maker</p>
+        <p>I Make This Web for 4 Day :v.</p>
+        <p>examplerehan@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="Right">Copyright© 2020 - Adhystira. All Right Reserved</div>
+</body>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+</html>
